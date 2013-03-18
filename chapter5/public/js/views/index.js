@@ -1,0 +1,1 @@
+//index.js is the default template shown to users when they arrive at the application
