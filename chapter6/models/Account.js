@@ -45,7 +45,7 @@ module.exports = function(config, mongoose, nodemailer){
             var smtpTransport = nodemailer.createTransport('SMTP', config.mail);
             resetPasswordUrl += '?account=' + doc._id;
             smtpTransport.sendMail({
-               from: 'MySocial@Site.com',
+               from: 'MySocialSite@MSS.com',
                to: doc.email,
                subject: 'MySocialSite Password Request',
                text: 'Click here to reset your password: ' + resetPasswordUrl

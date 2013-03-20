@@ -5,6 +5,8 @@
    "dependencies": {
       "express": "",
       "jade": "",
-      "mongoose": ""
+      "mongoose": "",
+      "nodemailer": "",
+      "connect": ""
    }
 }
