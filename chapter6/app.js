@@ -54,7 +54,7 @@ app.post('/register', function(req, res){
    var email = req.param('email', null);
    var password = req.param('password', null);
 
-   if (null == email || null == password){
+   if (null == email || email.length < 1 || null == password || password.length < 1){
       res.send(400);
       return;
    }
