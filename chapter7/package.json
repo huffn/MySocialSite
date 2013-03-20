@@ -1,0 +1,12 @@
+{
+   "name": "MySocialSite",
+   "version": "0.0.1",
+   "private": true,
+   "dependencies": {
+      "express": "",
+      "jade": "",
+      "mongoose": "",
+      "nodemailer": "",
+      "connect": ""
+   }
+}
